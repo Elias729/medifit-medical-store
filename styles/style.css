@@ -188,7 +188,7 @@ body {
     background-color: rgba(143, 125, 106, 0.05);
     border-radius: 12px;
     padding: 20px;
-    max-width: 190px;
+    width: 190px;
     height: auto;
     aspect-ratio: 4 / 5;
     text-align: center;
@@ -423,4 +423,152 @@ body {
 
 .offer-section {
     text-decoration: line-through;
+}
+
+
+/** policy Section Style **/
+
+.policy-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f8f8f6;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1330px;
+    margin: 60px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.policy-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+    padding: 10px;
+}
+
+.policy-icon {
+    width: 60px;
+    height: 60px;
+    background: #f1e9dd;
+    border-radius: 50% 50% 50% 50% / 60% 40% 60% 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: #503217;
+}
+
+.policy-title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #503217;
+}
+
+.policy-subtitle {
+    margin: 4px 0 0;
+    font-size: 14px;
+    color: #8F7D6A;
+}
+
+
+/** store section style **/
+
+.middle-container {
+    background-color: #5032170c;
+    padding: 35px 0px;
+    margin-top: 150px;
+}
+
+.store-contsiner {
+    width: 80%;
+    margin: auto;
+}
+
+.store-titler {
+    text-align: center;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #503217;
+}
+
+.store-cards {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 15px;
+}
+
+.single-cards {
+    width: 300px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.single-cards:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.top-storeTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.store-btn {
+    background: #503217;
+    color: #fff;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.store-btn:hover {
+    background: #704626;
+}
+
+.top-storeTitle img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.top-storeTitle img:hover {
+    transform: scale(1.5);
+}
+
+.bottmo-contents {
+    text-align: center;
+}
+
+.store-titles {
+    font-size: 18px;
+    font-weight: 500;
+    color: #503217;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.store-ptice {
+    font-size: 16px;
+    color: #8F7D6A;
 }
