@@ -480,9 +480,6 @@ body {
     background-color: #5032170c;
     padding: 35px 0px;
     margin-top: 150px;
-}
-
-.store-contsiner {
     width: 80%;
     margin: auto;
 }
@@ -571,4 +568,90 @@ body {
 .store-ptice {
     font-size: 16px;
     color: #8F7D6A;
+}
+
+/** Join Section **/
+
+.join-container {
+    width: 90%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.left-joinSection img {
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.right-joinContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 500px;
+    background: #fdfdfd;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.join-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #8f7d6a;
+    margin-bottom: 8px;
+}
+
+.join-subTitle {
+    font-size: 32px;
+    font-weight: 600;
+    color: #503217;
+    margin-bottom: 25px;
+}
+
+.joinInput {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    max-width: 380px;
+}
+
+.joinInput input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+
+.joinInput input:focus {
+    outline: none;
+    border-color: #503217;
+    box-shadow: 0 0 5px rgba(80, 50, 23, 0.3);
+}
+
+
+.joinInput button {
+    background: #503217;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.joinInput button:hover {
+    background: #704626;
 }
